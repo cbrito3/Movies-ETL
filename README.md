@@ -19,3 +19,4 @@ Britta, my client, needs my help to create an automated pipeline that takes in n
 ![kaggle_metadata](https://github.com/cbrito3/Movies-ETL/blob/main/kaggle_metadata.png)
    
    - The function converts the MovieLens ratings data file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file. 
+![ratings](https://github.com/cbrito3/Movies-ETL/blob/main/ratings.png)
