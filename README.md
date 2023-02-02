@@ -57,6 +57,7 @@ Britta, my client, needs my help to create an automated pipeline that takes in n
 
 # Create the Movie Database 
 * The data from the movies_df DataFrame replaces the current data in the movies table in the SQL database, as determined by the movies_query.png. 
+
 ![movies_query](https://github.com/cbrito3/Movies-ETL/blob/main/movies_query.png)
 
 * The data from the MovieLens rating CSV file is added to the ratings table in the SQL database, as determined by the ratings_query.png. 
