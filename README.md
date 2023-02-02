@@ -9,3 +9,9 @@ Britta, my client, needs my help to create an automated pipeline that takes in n
   * Deliverable 2: Extract and Transform the Wikipedia Data
   * Deliverable 3: Extract and Transform the Kaggle data
   * Deliverable 4: Create the Movie Database
+
+# Write an ETL Function to Read Three Data Files 
+ * An ETL function is written to read in the three data files.
+  - The function converts the Wikipedia JSON file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file. 
+  - The function converts the Kaggle metadata file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file. 
+  - The function converts the MovieLens ratings data file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file. 
