@@ -20,3 +20,20 @@ Britta, my client, needs my help to create an automated pipeline that takes in n
    
    - The function converts the MovieLens ratings data file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file. 
 ![ratings](https://github.com/cbrito3/Movies-ETL/blob/main/ratings.png)
+
+# Extract and Transform the Wikipedia Data 
+* The TV shows are filtered out, and the wiki_movies_df DataFrame is created. 
+* A try-except block is used to catch errors while extracting the IMDb IDs with a regular expression and dropping duplicate IDs.
+* The extraction and transformation of the Wikipedia data in the ETL function does the following:
+  - A list comprehension is used to keep columns with non-null values. 
+  - The non-null box office data is converted to string values using the lambda and join functions. 
+  - A regular expression is used to match the six elements of "form_one" of the box office data. 
+  - A regular expression is used to match the three elements of "form_two" of the box office data. 
+
+* The following columns are cleaned in the Wikipedia DataFrame: 
+  - The box office column
+  - The budget column
+  - The release date column
+  -  The running time column
+  
+* The cleaned Wikipedia data is converted to a Pandas DataFrame, and the DataFrame is displayed in the ETL_clean_wiki_movies.ipynb file. 
